@@ -1,0 +1,9 @@
+section {
+    background-color: #e84610;
+    height: 100%;
+}
+body html {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+}
