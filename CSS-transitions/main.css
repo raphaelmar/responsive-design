@@ -1,25 +1,30 @@
- .box {
-    background-color: #79797f;
-    width: 150px;
-    height: 0;
-    margin: 25px;
-    animation-name: growing;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
-    animation-direction: alternate-reverse;
-    transition: background-color 1s ease-in-out
-
-  }
-  .box:hover {
-      background-color: coral
-      
-  }
- @keyframes growing {
-     from { height: 0px
-     }
-     to { height: 150px
-     }
- }
+.box {
+  background-color: #0799d3;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  animation-name: jump;
+  top: 0;
+  position: relative;
+  animation-duration: .5s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
 }
+
+}
+@keyframes jump {
+    from {top: 0px;
+    }
+    to {top: 100px;
+    }
+}
+@-webkit-keyframes jump {
+    from {
+      top: 0;
+    }
+    to {
+      top: 100px;
+    }
+  }
