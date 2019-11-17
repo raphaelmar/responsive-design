@@ -1,15 +1,25 @@
-a {
-  color: #e84610;
-  font-size: 16px;
-  text-decoration: none;
-  transition-property: color;
-    transition-duration: 1s;
-    transition-timing-function: ease-in-out;
-}
+ .box {
+    background-color: #79797f;
+    width: 150px;
+    height: 0;
+    margin: 25px;
+    animation-name: growing;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    transition: background-color 1s ease-in-out
 
-a:hover {
-    
-    color: #000;
-
-
+  }
+  .box:hover {
+      background-color: coral
+      
+  }
+ @keyframes growing {
+     from { height: 0px
+     }
+     to { height: 150px
+     }
+ }
 }
