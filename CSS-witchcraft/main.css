@@ -30,7 +30,7 @@ button {
 .dropdownLink {
     text-decoration: none;
     display: block;
-    background-color: rgba(243,226,199,1);
+    background-color: #F9F5E7;
     color:#4a4a4f;
     padding: 10px 5px;
     transition: background-color .5s ease-in-out
